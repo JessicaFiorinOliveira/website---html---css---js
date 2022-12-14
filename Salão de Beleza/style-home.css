@@ -1,0 +1,72 @@
+body{
+    background: #f6e9e4;
+}
+
+header{
+    background: #f6e9e4;
+    padding: 10px 0;
+}
+
+.caixa{
+    width: 1150px;
+    position: relative;
+    margin:0 auto;
+    padding: 0px;
+    font-family:'Montserrat', sans-serif;
+}
+
+nav {
+    position: absolute;
+    top: 110px;
+    right: 0;
+}
+
+nav li {
+    display: inline;
+    margin: 0 0 0 15px;
+}
+
+nav a {
+    text-transform: uppercase;
+    color: rgba(0, 0, 0, 0.733);
+    font-weight: bold;
+    font-size: 22px;
+    text-decoration: none;
+}
+
+nav a:hover {
+    color:aquamarine;
+}
+
+#banner {
+    width: 100%;
+}
+
+.principal{
+    background: #f6e9e4;
+    padding: 48px;
+    font-family: 'Montserrat', sans-serif;
+    font-size: larger;
+}
+
+.titulo-centralizado{
+    text-align: center;
+    font-size: xx-large;;
+}
+
+
+.itens{
+    font-family:'Montserrat', sans-serif;
+    font-size: large;
+}
+
+footer{
+    text-align: center;
+    background-color: #f6e9e4;
+    padding: 40px 0;
+}
+
+.copyright {
+    color:#000000;
+    font-size: 17px;
+}

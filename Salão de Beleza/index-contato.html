@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contato</title>
+    <link rel="stylesheet" href="reset.css">
+    <link rel="stylesheet" href="style-contato.css">
+
+</head>
+<body>
+    <header>
+        <div class="caixa">
+        <h1><img src="./img/Logo.JPG" alt= Logo do salão de beleza</h1>
+        
+         <nav>
+             <ul>
+                <li><a href="index-home.html">Home</a></li>
+                <li><a href="produtos.html">Serviços</a></li>
+                <li><a href="index-contato.html">Contatos</a></li>
+             </ul>
+         </nav>
+        </div>
+     </header>
+
+    <main>
+        <form>
+            <label for="nomeesobrenome">Nome e sobrenome</label>
+            <input type="text" id="nomeesobrenome" class="imput-padrão" required>
+
+            <label>Email</label>
+            <input type="text" id="email" class="imput-padrão" required placeholder="seuemail@dominio.com">
+
+            <label for="telefone">Telefone</label>
+            <input type="text" id=telefone class="imput-padrão" required  placeholder="(xx) xxxx-xxxxx">
+            
+            <label for="mensagem">Mensagem</label>
+            <textarea cols="68" rows="10" class="imput-padrão"></textarea>
+            
+            <fieldset>
+                <legend>Como prefere o nosso contato?</legend>
+                <label for="radio-email"><input type="radio" name="contato" value="email" id="radio-email">Email</label>
+                
+                <label for="radio-telefone"><input type="radio" name="contato" value="telefone" id="radio-telefone">Telefone</label>
+                
+                <label for="radio-WhatsApp"><input type="radio" name="contato" value="WhatsApp" id="radio-WhatsApp" checked>WhatsApp</label>
+            </fieldset>  
+           
+            
+            <fieldset>
+            <legend>Qual horário prefere ser atendido?</legend>
+            <select>
+                <option>Manhã</option>
+                <option>Tarde</option>
+                <option>Noite</option>
+            </select>
+        </fieldset>
+
+            <label class="checkbox"><input type="checkbox" checked> Gostaria de receber nossas novidades por e-mail?</label>
+            
+            <input type="submit" value="Enviar formulário" class="enviar">
+
+        </form>
+    </main>
+     
+     <footer>
+            <p class="copyright">&copy; Copyrigth Fashion Salão - 1998</p>
+    </footer>
+    </body>
+</html>
